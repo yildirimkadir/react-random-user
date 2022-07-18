@@ -104,7 +104,7 @@ function App() {
               <button className="icon" data-label="age" onMouseEnter={() => {setValue((users.dob.age)); setTitle("age")}}>
               <img src={womanAgeSvg} alt="age" id="iconImg" />
             </button>
-            <button className="icon" data-label="street" onMouseEnter={()=> {setValue((users.location.street.name)); setTitle("adresse")}}>
+            <button className="icon" data-label="street" onMouseEnter={()=> {setValue((users.location.street.name)); setTitle("address")}}>
               <img src={mapSvg} alt="map" id="iconImg" />
             </button>
             <button className="icon" data-label="phone" onMouseEnter={() => {setValue((users.phone)); setTitle("phone")}}>
